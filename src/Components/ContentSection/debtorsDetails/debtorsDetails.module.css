@@ -1,0 +1,162 @@
+/* Debtor Details Section */
+.debtorDetails{
+
+}
+
+/* Debtor Details Section Elements */
+.debtorDetailsHeader{
+    align-items: baseline;
+    color: #232639;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px 0;
+}
+
+/* Debtor Details Section Header Elements */
+
+.debtorDetailTabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+
+}
+
+.debtorDetailTab{
+    margin: 0;
+    width: 49.5%;
+}
+
+/* Contact Details */
+.contactDetails{
+
+}
+
+/* Contact Details Elements */
+.contactDetailsView{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 44% 55%;
+}
+
+/* Contact Details View Elements */
+.contactDetailsRow{
+    align-items: center;
+    margin: 0 10px;
+}
+
+.contactLabel{
+
+}
+
+.contactValue{
+    color: #232639;
+}
+
+
+/* Contact Drop Down Selector */
+.contactSelectBox{
+    background: rgba(73, 144, 226, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px -5px;
+}
+
+/* Contact Selector Box Elements */
+.contactDropDown{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.contactDropDownArrow{
+    color: #4990E2;
+}
+
+.contactSelectBoxLabels{
+    color: #232639;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 70% 29%;
+    margin: 0 5px;
+}
+
+.contactSelectAddSideMargin10{
+    margin: 0 10px;
+}
+
+.contactSelectAddSideMargin5{
+    margin: 0 5px;
+}
+
+.contactDetailsMarginBtm10{
+    margin-bottom: 10px;
+}
+
+.phoneNumber{
+    color: #4990E2;
+}
+
+/* Script section */
+.script{
+    background: #FFFFFF;
+    border-radius: 8px;
+    /*margin: 10px;*/
+    padding: 5px;
+}
+
+.scriptDetail{
+    background: #F8F8F8;
+    border-radius: 8px;
+    color: #4F4F4F;;
+    min-height: 147px;
+    padding: 10px;
+}
+
+.scriptControls{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.scriptDecisionBtn{
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    height: 35px;
+    margin-top: 5px;
+    width: 48%;
+    min-width: 128px;
+}
+
+.rightParty{
+    background: #4990E2;
+    color: #FFFFFF;
+}
+
+.wrongParty{
+    background: rgba(73, 144, 226, 0.1);
+    color: #4990E2;
+}
+
+.alignScriptSelectDropdown{
+    color: #232639;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.dashDropDownList{
+    background: #EDF4FC;
+    padding: 10px;
+    position: absolute;
+    width: 281.5px;
+}
+
+.dashDropDownSelectItem{
+    margin: 5px 0;
+}
+
+.dashDropDownSelectItem:hover{
+    background: #000000;
+    color: #FFFFFF;
+}

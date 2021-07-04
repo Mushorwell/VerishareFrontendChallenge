@@ -1,0 +1,39 @@
+/* App general styling */
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center content section */
+.container {
+    /*margin: 8vh auto;*/
+    width: 1366px;
+    min-height: 768px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+/* Dashboard Control Button */
+.dashControlBtn{
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashControlBtn:hover{
+    background: none;
+    border: 2px #4990E2 solid;
+    color: #4990E2;
+}
+
+/* Dashboard Header and Footer */
+.widthBar{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+/* Bottom Bar */
+.bottomBar{
+    background: rgba(73, 144, 226, 0.1);
+    bottom: 0;
+    color: #4990E2;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+/* Bottom bar elements */
+.caseNavigationBtn{
+    background: none;
+    border: 2px solid #4990E2;
+    color: #4990E2;
+    height: 32px;
+    margin: 0 5px;
+    max-width: 220px;
+    min-width: 130px;
+}
+
+.caseNavigationBtn:hover{
+    background: #4990E2;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+/*.caseNavigationBtn:hover{*/
+/*    background: #4990E2;*/
+/*    border: 2px solid #FFFFFF;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+.dashStat{
+    align-items: center;
+    background: rgba(73, 144, 226, 0.1);
+    border-radius: 16px;
+    display: flex;
+    font-size: 10px;
+    height: 28px;
+    justify-content: space-between;
+    margin: 0 5px;
+    width: 127px;
+}
+
+.nxtCaseBtn{
+    margin-right: 20px;
+}
+
+.prevCaseBtn{
+    margin-left: 20px;
+}
+
+/*.caseNavigationBtn:hover{*/
+/*    background: #4990E2;*/
+/*    border: none;*/
+/*    color: #FFF;*/
+/*}*/
+
+/* Dash stats elements */
+.dashStatLabel{
+    margin-left: 7px;
+}
+
+.dashStatValue{
+    font-size: 18px;
+    margin-right: 7px;
+}

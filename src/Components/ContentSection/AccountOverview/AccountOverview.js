@@ -3,8 +3,9 @@ import appStyles from '../../../app.module.css';
 import contentStyles from "../contentSection.module.css";
 import debtorStyles from '../debtorsDetails/debtorsDetails.module.css';
 import styles from './accountOverview.module.css';
-import {FaChevronDown, FaStar} from 'react-icons/fa';
+import {FaChevronDown, FaRegBell, FaStar} from 'react-icons/fa';
 import DebtOverview from '../../../Data/debtoverview.json';
+import {BiNotepad} from "react-icons/bi";
 
 export const AccountOverview = () => {
 
@@ -35,7 +36,7 @@ export const AccountOverview = () => {
                             Comms History
                         </div>
                         <div className={[styles.accountOverviewTab, contentStyles.dashTab, contentStyles.inactiveTab].join(' ')}>
-                            Notes
+                            <FaRegBell className={styles.accountOverviewTabIcon} size={15} />Notes
                         </div>
                     </div>
                 </div>
@@ -98,8 +99,13 @@ export const AccountOverview = () => {
                     </div>
                 </div>
                 <div className={styles.accountOverviewNotes}>
-                    <div className={contentStyles.dashSubsectionHeading}>
-                        Top Pinned Notes
+                    <div className={styles.accountOverviewPinnedNotesHead}>
+                        <div className={contentStyles.dashSubsectionHeading}>
+                            Top Pinned Notes
+                        </div>
+                        <div className={styles.accountOverviewPinnedNotesHeadLink}>
+                            View All
+                        </div>
                     </div>
                     <div classs={styles.accountNotesGrid}>
                         <div className={styles.accountNotesRow}>
@@ -121,7 +127,7 @@ export const AccountOverview = () => {
                 </div>
                 <div className={contentStyles.alignBtnRight}>
                     <button className={[appStyles.dashControlBtn, contentStyles.mainDashBtn, styles.addNoteBtn].join(' ')}>
-                        Add Note
+                        <BiNotepad className={styles.addNoteBtnIcon} size={20}/>Add Note
                     </button>
                 </div>
             </div>

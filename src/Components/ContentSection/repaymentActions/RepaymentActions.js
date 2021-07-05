@@ -115,7 +115,7 @@ export const RepaymentActions = () => {
                     </div>
                 </div>
                 <div className={contentStyles.alignBtnRight}>
-                    <button className={[appStyles.dashControlBtn, contentStyles.mainDashBtn, accountStyles.addNoteBtn].join(' ')}>
+                    <button className={[appStyles.dashControlBtn, contentStyles.mainDashBtn, styles.repaymentPlanRecalcBtn].join(' ')}>
                         Recalculate Repayment Plan
                     </button>
                 </div>

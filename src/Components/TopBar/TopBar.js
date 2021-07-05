@@ -2,6 +2,8 @@ import React from 'react';
 import appStyles from '../../app.module.css';
 import styles from './topBar.module.css';
 import logo from '../../images/AgentViewDashboardLogo_noBg.svg';
+import {GiKnifeFork} from 'react-icons/gi';
+import {FaRegKeyboard} from "react-icons/fa";
 
 export const TopBar = () => {
     return(
@@ -10,10 +12,10 @@ export const TopBar = () => {
                 <img className={styles.logo} src={logo} alt="Agent View Dashboard Logo"/>
                     <div className={styles.activitySection}>
                         <button className={[styles.activityBtn, styles.activityBtnActive].join(' ')}>
-                            Lunch/Tea Break
+                            <GiKnifeFork size={12}/>Lunch/Tea Break
                         </button>
                         <button className={styles.activityBtn}>
-                            Away from Keyboard
+                            <FaRegKeyboard size={12}/>Away from Keyboard
                         </button>
                     </div>
             </div>

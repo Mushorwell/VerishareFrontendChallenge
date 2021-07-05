@@ -54,6 +54,30 @@
     color: #4990E2;
 }
 
+/* My desk menu */
+.dashMyDeskMenu{
+    background: #4990E2;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0px 2px 4px rgba(50, 99, 156, 0.29);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 55px;
+    width: 100px;
+}
+
+.dashMyDeskMenuIcon{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
 /* Dashboard Tab */
 .dashTab{

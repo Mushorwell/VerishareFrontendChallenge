@@ -45,9 +45,12 @@
 
 /* Activity Section Elements */
 .activityBtn{
+    align-items: center;
     border: none;
     background: #fff;
     color: #4990E2;
+    display: flex;
+    justify-content: space-evenly;
     width: 125px;
 }
 

@@ -1,0 +1,225 @@
+/* Contents Section  */
+.contentSection{
+    /*align-items: center;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 20px 50px;
+    max-width: 1366px;
+}
+
+/* Contents Section Elements */
+/* Class to align button to the right hand side */
+.alignBtnRight{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Contents Subsections */
+.contentSubSections{
+    background: #F8F8F8;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.contentSidePane{
+    width: 25%;
+    min-height: 650px;
+}
+
+.contentMainSections{
+    width: 37%;
+    min-height: 650px;
+}
+
+/* General ContentS Section Elements */
+.contentSectionHeading{
+    align-items: baseline;
+    color: #232639;
+    margin: 10px;
+}
+
+.contentSectionHeading h1{
+    margin: 5px 0;
+}
+
+.dashActionLink{
+    color: #4990E2;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/*.dashControlBtn:hover{*/
+/*    background: none;*/
+/*    border: 2px #4990E2 solid;*/
+/*    color: #4990E2;*/
+/*}*/
+
+
+/* Dashboard Tab */
+.dashTab{
+    background: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3px solid #4990E2;
+}
+
+/* Dashboard Content Section */
+.dashTabBody{
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 5px;
+}
+
+/* Dashboard Content Elements */
+.detailRow{
+    color: #828282;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detailRowFirst{
+    border-bottom: 0.5px solid #E0E0E0;
+}
+
+.detailRowLast{
+    border-top: 0.5px solid #E0E0E0;
+    margin-bottom: 10px;
+}
+
+.detailRowMiddle{
+    border-bottom: 0.5px solid #E0E0E0;
+    border-top: 0.5px solid #E0E0E0;
+}
+
+.dashSubsectionHeading{
+    color: #539CF4;
+    font-weight: 600;
+}
+
+.mainDashBtn{
+    background: #4990E2;
+    border: none;
+    color: #FFFFFF;
+    margin: 0 10px 10px;
+}
+
+.mainSectionTabView{
+
+}
+
+.mainSectionTabHeader {
+    margin: 10px 10px 0 10px;
+}
+
+
+/* Dashboard Content Section Elements */
+.accountOverview{
+
+}
+
+.repaymentActions{
+
+}
+
+.contentSectionHeading{
+    align-items: baseline;
+    color: #232639;
+    margin: 10px;
+}
+
+.contentSectionHeading h1{
+    margin: 5px 0;
+}
+
+.dashActionLink{
+    color: #4990E2;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.dashDetailRowHeader{
+    color: #539CF4;
+}
+
+.dashDetailRowAddMargins{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.dashDetailRowRemoveMargins{
+    margin-bottom: -5px;
+}
+
+.dashDetailRowAlignRight{
+    text-align: right;
+}
+
+.dashTab{
+    background: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3px solid #4990E2;
+}
+
+.dashTabBody{
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 5px;
+}
+
+.inactiveTab{
+    background: #E9F0F9;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+
+/*.detailRow{*/
+/*    color: #828282;*/
+/*    padding-top: 10px;*/
+/*    padding-bottom: 10px;*/
+/*}*/
+
+/*.detailRowFirst{*/
+/*    border-bottom: 0.5px solid #E0E0E0;*/
+/*}*/
+
+/*.detailRowLast{*/
+/*    border-top: 0.5px solid #E0E0E0;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.detailRowMiddle{*/
+/*    border-bottom: 0.5px solid #E0E0E0;*/
+/*    border-top: 0.5px solid #E0E0E0;*/
+/*}*/
+
+/*.dashSubsectionHeading{*/
+/*    color: #539CF4;*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.inactiveTab{*/
+/*    background: #E9F0F9;*/
+/*    border-radius: 8px 8px 0px 0px;*/
+/*    border-bottom: none;*/
+/*}*/
+
+/*.mainDashBtn{*/
+/*    background: #4990E2;*/
+/*    border: none;*/
+/*    color: #FFFFFF;*/
+/*    margin: 0 10px 10px;*/
+/*}*/
+
+/*.mainSectionTabView{*/
+
+/*}*/
+
+/*.mainSectionTabHeader{*/
+/*    margin: 10px 10px 0 10px;*/
+/*}*/

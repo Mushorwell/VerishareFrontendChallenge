@@ -1,0 +1,596 @@
+/* App level styling */
+body{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+button{
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container {
+    min-height: 100vh; /* minimum height = screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashControlBtn{
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dashControlBtn:hover{
+    background: none;
+    border: 2px #4990E2 solid;
+    color: #4990E2;
+}
+
+.widthBar{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+/* Top bar elements */
+.activityBtn{
+    border: none;
+    background: #fff;
+    color: #4990E2;
+    width: 125px;
+}
+
+.activityBtn:hover{
+    background: #1872D9;
+    color: #ffffff;
+}
+
+.activityBtnActive{
+    color: #fff;
+    background: #F54F4F;
+}
+
+.activitySection{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.campaignBtn{
+    background: none;
+    border: 1px solid #BDD9FA;
+    color: #fff;
+    width: 113px;
+}
+
+.campaignBtn:hover{
+    background: #BDD9FA;
+    color: #4990E2;
+}
+
+.campaignControlsSection{
+    margin-right: 20px;
+}
+
+.logo{
+    width: 35px;
+    height: auto;
+}
+
+.leftAlignedBarItems{
+    margin-left: 20px;
+}
+
+.topBar{
+    background: linear-gradient(180deg, #4990E2 0%, #1872D9 100%);
+    top: 0;
+}
+
+.topBar button{
+    border-radius: 16px;
+    font-size: 10px;
+    height: 24px;
+    margin: auto 4px;
+}
+
+.topBar button:focus-visible{
+    outline: none;
+}
+
+.topBarSection{
+    display: flex;
+    align-items: center;
+}
+
+/* Bottom bar elements */
+.bottomBar{
+    background: rgba(73, 144, 226, 0.1);
+    bottom: 0;
+    color: #4990E2;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.caseNavigationBtn{
+    background: none;
+    border: 2px solid #4990E2;
+    color: #4990E2;
+    height: 32px;
+    margin: 0 5px;
+    max-width: 220px;
+    min-width: 130px;
+}
+
+.caseNavigationBtn:hover{
+    background: #4990E2;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.dashStat{
+    align-items: center;
+    background: rgba(73, 144, 226, 0.1);
+    border-radius: 16px;
+    display: flex;
+    font-size: 10px;
+    height: 28px;
+    justify-content: space-between;
+    margin: 0 5px;
+    width: 127px;
+}
+
+.dashStatLabel{
+    margin-left: 7px;
+}
+
+.dashStatValue{
+    font-size: 18px;
+    margin-right: 7px;
+}
+
+.nxtCaseBtn{
+    margin-right: 20px;
+}
+
+.prevCaseBtn{
+    margin-left: 20px;
+}
+
+/* Dashboard Content Section  */
+.contentSection{
+    /*align-items: center;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 20px;
+    max-width: 1366px;
+}
+
+.contentSubSections{
+    background: #F8F8F8;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.contentSidePane{
+    width: 25%;
+}
+
+.contentMainSections{
+    width: 37%;
+}
+
+.contentSectionHeading{
+    align-items: baseline;
+    color: #232639;
+    margin: 10px;
+}
+
+.contentSectionHeading h1{
+    margin: 5px 0;
+}
+
+.dashActionLink{
+    color: #4990E2;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.dashTab{
+    background: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3px solid #4990E2;
+}
+
+.dashTabBody{
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 5px;
+}
+
+.detailRow{
+    color: #828282;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.detailRowFirst{
+    border-bottom: 0.5px solid #E0E0E0;
+}
+
+.detailRowLast{
+    border-top: 0.5px solid #E0E0E0;
+    margin-bottom: 10px;
+}
+
+.detailRowMiddle{
+    border-bottom: 0.5px solid #E0E0E0;
+    border-top: 0.5px solid #E0E0E0;
+}
+
+.dashSubsectionHeading{
+    color: #539CF4;
+    font-weight: 600;
+}
+
+.inactiveTab{
+    background: #E9F0F9;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+
+.mainDashBtn{
+    background: #4990E2;
+    border: none;
+    color: #FFFFFF;
+    margin: 0 10px 10px;
+}
+
+.mainSectionTabView{
+
+}
+
+.mainSectionTabHeader{
+    margin: 10px 10px 0 10px;
+}
+
+/* Dashboard Content Section Elements */
+.debtorDetails{
+
+}
+
+.accountOverview{
+
+}
+
+.repaymentActions{
+
+}
+
+/* Debtor Details Header */
+.alignBtnRight{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Debtor Details Section */
+.debtorDetails{
+
+}
+
+/* Debtor Details Section Elements */
+.debtorDetailsHeader{
+    align-items: baseline;
+    color: #232639;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* Debtor Details Section Header Elements */
+
+.debtorDetailTabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+
+}
+
+.debtorDetailTab{
+    margin: 0;
+    width: 49.5%;
+}
+
+/* Contact Details */
+.contactDetails{
+
+}
+
+/* Contact Details Elements */
+.contactDetailsView{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 44% 55%;
+}
+
+/* Contact Details View Elements */
+.contactDetailsRow{
+    align-items: center;
+    margin: 0 10px;
+}
+
+.contactLabel{
+
+}
+
+.contactValue{
+    color: #232639;
+}
+
+
+/* Contact Drop Down Selector */
+.contactSelectBox{
+    margin: 5px -5px;
+    background: rgba(73, 144, 226, 0.1);
+    border-radius: 4px;
+}
+
+/* Contact Selector Box Elements */
+.contactDropDown{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.contactDropDownArrow{
+    color: #4990E2;
+}
+
+.contactSelectBoxLabels{
+    color: #232639;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 70% 29%;
+    margin: 0 5px;
+}
+
+.contactSelectAddSideMargin10{
+    margin: 0 10px;
+}
+
+.contactSelectAddSideMargin5{
+    margin: 0 5px;
+}
+
+.contactDetailsMarginBtm10{
+    margin-bottom: 10px;
+}
+
+.phoneNumber{
+    color: #4990E2;
+}
+
+/* Script section */
+.script{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.scriptDetail{
+    background: #F8F8F8;
+    border-radius: 8px;
+    color: #4F4F4F;;
+    min-height: 147px;
+    padding: 10px;
+}
+
+.scriptControls{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.scriptDecisionBtn{
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    height: 35px;
+    margin-top: 5px;
+    width: 48%;
+    min-width: 128px;
+}
+
+.rightParty{
+    background: #4990E2;
+    color: #FFFFFF;
+}
+
+.wrongParty{
+    background: rgba(73, 144, 226, 0.1);
+    color: #4990E2;
+}
+
+/* Debt Account Overview */
+.accountOverviewBody{
+    margin: 0 10px 10px 10px;
+}
+
+.accountOverviewTabs{
+    color: #232639;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.accountOverviewTab{
+
+}
+
+.accountOverviewNotes{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.accountNotesGrid{
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+.accountNotesRow{
+    align-items: center;
+    background: #F8F8F8;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 2%);
+    border-radius: 4px;
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-columns: 10% 70% 20%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.accountNotesRowEven{
+    background: #F6F9FE;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+}
+
+.accountNoteRowIcon{
+    color: #4990E2;
+    text-align: center;
+}
+
+.accountNoteSummary{
+    text-align: left;
+}
+
+.accountDropDownArrow{
+    text-align: center;
+}
+
+.accountOverviewDetailsRow{
+    align-items: center;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 32% 46% 20%;
+}
+
+.accountOverviewDetailLink{
+    color: #4990E2;
+    text-align: right;
+}
+
+.addNoteBtn{
+    height: 44px;
+    width: 226px;
+}
+
+/* Repayment Actions Section */
+.repaymentActionsTabs{
+    color: #232639;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.repaymentActionsNoTab{
+    display: flex;
+    gap: 25px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: flex-end;
+
+}
+
+.repaymentActionsTab{
+
+}
+
+.repaymentActionTabBody{
+    margin: 0 10px 10px 10px;
+    padding-top: 10px;
+}
+
+.repaymentActionDetailRows{
+    border-bottom: 0.5px solid #E0E0E0;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+.repaymentActionDetailRowsNoBorder{
+    border-bottom: none;
+}
+
+.repaymentAggregations{
+    background: #F2F7FF;
+    border-radius: 4px;
+    color: #539CF4;
+    font-weight: 700;
+    margin: -8px -5px auto -5px;
+    padding: 10px 5px;
+}
+
+.dashDetailRowHeader{
+    color: #539CF4;
+}
+
+.dashDetailRowAddMargins{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.dashDetailRowRemoveMargins{
+    margin-bottom: -5px;
+}
+
+.dashDetailRowAlignRight{
+    text-align: right;
+}
+
+.repaymentPlanStatusRow{
+    background: #DCE9FF;
+    border-radius: 4px;
+    margin: 5px -5px;
+    padding: 15px;
+}
+
+.repaymentPlanStatusSection{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+}
+
+.repaymentPlanStatusEmphasis{
+    color: #539CF4;
+    font-weight: 700;
+}
+
+.repaymentPlanDetailRows{
+    display: grid;
+    grid-template-columns: 35% 50% 15%;
+}

@@ -1,0 +1,70 @@
+/* Repayment Actions Section */
+.repaymentActionsTabs{
+    color: #232639;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.repaymentActionsNoTab{
+    display: flex;
+    gap: 25px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: flex-end;
+
+}
+
+.repaymentActionsTab{
+
+}
+
+.repaymentActionTabBody{
+    margin: 0 10px 10px 10px;
+    padding-top: 10px;
+}
+
+.repaymentActionDetailRows{
+    border-bottom: 0.5px solid #E0E0E0;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+.repaymentActionDetailRowsNoBorder{
+    border-bottom: none;
+}
+
+.repaymentAggregations{
+    background: #F2F7FF;
+    border-radius: 4px;
+    color: #539CF4;
+    font-weight: 700;
+    margin: -8px -5px auto -5px;
+    padding: 10px 5px;
+}
+
+/* Repayment Plan Section */
+.repaymentPlanStatusRow{
+    background: #DCE9FF;
+    border-radius: 4px;
+    margin: 5px -5px;
+    padding: 15px;
+}
+
+.repaymentPlanStatusSection{
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    align-items: center;
+}
+
+.repaymentPlanStatusEmphasis{
+    color: #539CF4;
+    font-weight: 700;
+}
+
+.repaymentPlanDetailRows{
+    display: grid;
+    grid-template-columns: 35% 50% 15%;
+}

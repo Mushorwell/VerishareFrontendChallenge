@@ -1,0 +1,25 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ffffff;
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+button{
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 500;
+}

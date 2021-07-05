@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agent View</title>
+<!--    <link rel="stylesheet" href="./AgentViewStylesheet.css">-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./App.css">
+    <link rel="stylesheet" href="topBar.module.css">
+    <link rel="stylesheet" href="contentSection.module.css">
+    <link rel="stylesheet" href="debtorsDetails.module.css">
+    <link rel="stylesheet" href="accountOverview.module.css">
+    <link rel="stylesheet" href="repaymentActions.module.css">
+    <link rel="stylesheet" href="bottomBar.module.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="widthBar topBar">
+            <div class="leftAlignedBarItems topBarSection">
+                <img class="logo" src="./AgentViewDashboardLogo_noBg.svg" alt="Agent View Dashboard Logo">
+                <div class="activitySection">
+                    <button class="activityBtn btnBreak activityBtnActive">Lunch/Tea Break</button>
+                    <button class="activityBtn btnAvailability">Away from Keyboard</button>
+                </div>
+            </div>
+            <div class="campaignControlsSection topBarSection">
+                <button class="campaignBtn">Login to Campaign</button>
+                <button class="campaignBtn">Pause Campaign</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contentSection">
+                <div class="contentSidePane contentSubSections debtorDetails">
+                    <div class="debtorDetailsHeader">
+                        <h1>Debtor Details</h1>
+                        <p>Debtor local time: 11:49am</p>
+                    </div>
+                    <div class="debtorDetailTabs">
+                        <div class="dashTab debtorDetailTab">
+                            Contact Details
+                        </div>
+                        <div class="dashActionLink">
+                            Confirm Details
+                        </div>
+                    </div>
+                    <div class="dashTabBody">
+                        <div class="contactDetails">
+                            <div class="contactDetailsRow contactDetailsView detailRow detailRowFirst">
+                                <div class="contactLabel">Name</div><div class="contactValue">HellowHellow jkjklsj</div>
+                            </div>
+                            <div class="contactDetailsRow contactDetailsView detailRow detailRowMiddle">
+                                <div class="contactLabel">Address</div><div class="contactValue">HellowHellow jkjklsjdkfj kjkjkkljsjdklj lkjlkjsdlkjlk klj</div>
+                            </div>
+                            <div class="contactDetailsRow contactDetailsView detailRow detailRowMiddle">
+                                <div class="contactLabel">SSN</div><div class="contactValue">HellowHellow</div>
+                            </div>
+                        </div>
+                        <div class="contactDetails">
+                            <div class="detailRowMiddle contactSelectAddSideMargin10">
+                                <div class="contactDetailsRow detailRow phoneNumber contactSelectBox">
+                                    <div class="contactDetailsView contactSelectAddSideMargin5">
+                                        <div class="contactLabel">Phone</div>
+                                        <div class="contactDropDown">
+                                            <div class="contactValue phoneNumber">+111 555 008 926</div>
+                                            <div class="contactDropDownArrow">down</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detailRowMiddle contactSelectAddSideMargin10">
+                                <div class="contactDetailsRow detailRow contactSelectBox">
+                                    <div class="contactSelectBoxLabels contactDetailsView">
+                                        <div class="contactLabel">Select Phone Outcome</div>
+                                        <div class="contactDropDown">
+                                            <div class="contactValue"></div><div class="contactDropDownArrow">down</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detailRowLast contactSelectAddSideMargin10">
+                                <div class="contactDetailsRow detailRow contactSelectBox">
+                                    <div class="contactSelectBoxLabels contactDetailsView">
+                                        <div class="contactLabel">Select Action Code</div>
+                                        <div class="contactDropDown">
+                                            <div class="contactValue"></div><div class="contactDropDownArrow">down</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="script">
+                        <div class="dashSubsectionHeading">
+                            Script
+                        </div>
+                        <div class="contactSelectAddSideMargin5">
+                            <div class="contactDetailsRow detailRow contactSelectBox">
+                                <div class="contactSelectBoxLabels contactDetailsView">
+                                    <div class="contactLabel">AAA A0D 2019</div>
+                                    <div class="contactDropDown">
+                                        <div class="contactValue"></div><div class="contactDropDownArrow">down</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scriptDetail">
+                            Script...
+                        </div>
+                        <div class="scriptControls">
+                            <button class="dashControlBtn scriptDecisionBtn wrongParty">Wrong Party</button>
+                            <button class="dashControlBtn scriptDecisionBtn rightParty">Right Party</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accountOverview contentMainSections contentSubSections">
+                    <div class="contentSectionHeading">
+                        <h1>Debt Account Overview</h1>
+                    </div>
+                    <div class="mainSectionTabView">
+                        <div class="mainSectionTabHeader">
+                            <div class="accountOverviewTabs">
+                                <div class="accountOverviewTab dashTab">
+                                    Account Details
+                                </div>
+                                <div class="accountOverviewTab dashTab inactiveTab">
+                                    Comms History
+                                </div>
+                                <div class="accountOverviewTab dashTab inactiveTab">
+                                    Notes
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashTabBody">
+                            <div class="accountOverviewBody">
+                                <div class="detailRow detailRowFirst ">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            Client Name
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                                <div class="detailRow detailRowMiddle">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            Industry
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                                <div class="detailRow detailRowMiddle">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            Product
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                                <div class="detailRow detailRowMiddle">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            Last Contacted
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                                <div class="detailRow detailRowMiddle">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            Last Payment
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                                <div class="detailRow detailRowLast">
+                                    <div class="accountOverviewDetailsRow">
+                                        <div class="accountOverviewRowLabel">
+                                            No. of Settlements
+                                        </div>
+                                        <div>Here there is some text and details</div>
+                                        <div class="accountOverviewDetailLink">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accountOverviewNotes">
+                            <div class="dashSubsectionHeading">
+                                Top Pinned Notes
+                            </div>
+                            <div classs="accountNotesGrid">
+                                <div class="accountNotesRow">
+                                    <div class="accountNoteRowIcon">star</div>
+                                    <div>helloow this is mah nephew what is happenbing int this worlkds what a load of garbade.</div>
+                                    <div class="accountDropDownArrow contactDropDownArrow">down</div>
+                                </div>
+                                <div class="accountNotesRow accountNotesRowEven">
+                                    <div class="accountNoteRowIcon">star</div>
+                                    <div>helloow this is mah nephew what is happenbing int this worlkds what a load of garbade.</div>
+                                    <div class="accountDropDownArrow contactDropDownArrow">down</div>
+                                </div>
+                                <div class="accountNotesRow">
+                                    <div class="accountNoteRowIcon">star</div>
+                                    <div>helloow this is mah nephew what is happenbing int this worlkds what a load of garbade.</div>
+                                    <div class="accountDropDownArrow contactDropDownArrow">down</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alignBtnRight">
+                            <button class="dashControlBtn mainDashBtn addNoteBtn">
+                                Add Note
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentMainSections contentSubSections repaymentActions">
+                    <div class="contentSectionHeading">
+                        <h1>Repayment Actions</h1>
+                    </div>
+                    <div class="mainSectionTabView">
+                        <div class="mainSectionTabHeader">
+                            <div class="repaymentActionsTabs">
+                                <div class="dashTab repaymentActionsTab">
+                                    Account Details
+                                </div>
+                                <div class="dashActionLink repaymentActionsNoTab">
+                                    <div>Transaction History</div>
+                                    <div>Insert Costs</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashTabBody">
+                            <div class="repaymentActionTabBody">
+                                <div class="repaymentActionDetailRows dashDetailRowHeader">
+                                    <div></div>
+                                    <div>Charged</div>
+                                    <div class="dashDetailRowAlignRight">Paid</div>
+                                </div>
+                                <div class="repaymentActionDetailRows">
+                                    <div>Capital Amount</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows">
+                                    <div>Interest</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows">
+                                    <div>Costs</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows repaymentActionDetailRowsNoBorder repaymentAggregations">
+                                    <div>Balance</div>
+                                    <div></div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="dashDetailRowAddMargins repaymentActionDetailRows repaymentActionDetailRowsNoBorder">
+                                    <div>Receipting Fee on Settlement</div>
+                                    <div>val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows repaymentActionDetailRowsNoBorder repaymentAggregations">
+                                    <div>Full Settlement Amount</div>
+                                    <div></div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainSectionTabView">
+                        <div class="mainSectionTabHeader">
+                            <div class="repaymentActionsTabs">
+                                <div class="dashTab repaymentActionsTab">
+                                    Repayment Plan
+                                </div>
+                                <div class="dashTab repaymentActionsTab inactiveTab">
+                                    Payment History
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashTabBody">
+                            <div class="repaymentActionTabBody">
+                                <div class="repaymentPlanStatusRow">
+                                    <div class="repaymentPlanStatusSection">
+                                        <div class="repaymentPlanStatusEmphasis">ICON</div>
+                                        <div>
+                                            <div>You have never made payment to this account.</div>
+                                            <div>We recommend an <span class="repaymentPlanStatusEmphasis">installment of $379.83</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="repaymentActionDetailRows repaymentPlanDetailRows">
+                                    <div>First Payment Date</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows repaymentPlanDetailRows">
+                                    <div>Payment Occurrence</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentActionDetailRows repaymentPlanDetailRows">
+                                    <div>Popular Templates</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                                <div class="repaymentPlanDetailRows repaymentActionDetailRowsNoBorder dashDetailRowRemoveMargins">
+                                    <div>Comms Method</div>
+                                    <div class="">val</div>
+                                    <div class="dashDetailRowAlignRight">val</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alignBtnRight">
+                            <button class="dashControlBtn mainDashBtn addNoteBtn">
+                                Recalculate Repayment Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widthBar bottomBar">
+            <button class="dashControlBtn caseNavigationBtn prevCaseBtn">
+                Previous Case
+            </button>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <div class="dashStat">
+                <div class="dashStatLabel">my ranking</div>
+                <div class="dashStatValue">4/100</div>
+            </div>
+            <button class="dashControlBtn caseNavigationBtn nxtCaseBtn">
+                Next Case
+            </button>
+        </div>
+    </div>
+</body>
+</html>

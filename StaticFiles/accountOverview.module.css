@@ -1,0 +1,79 @@
+/* Debt Account Overview Elements */
+.accountOverviewBody{
+    margin: 0 10px 10px 10px;
+}
+
+/* Account overview Tabs' Elements */
+.accountOverviewTabs{
+    color: #232639;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.accountOverviewTab{
+
+}
+
+/* Account overview notes  */
+.accountOverviewNotes{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Account overview notes table */
+.accountNotesGrid{
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+/* Account overview notes rows */
+.accountNotesRow{
+    align-items: center;
+    background: #F8F8F8;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 2%);
+    border-radius: 4px;
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-columns: 10% 70% 20%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+/* Accounts overview notes elements */
+.accountNotesRowEven{
+    background: #F6F9FE;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+}
+
+.accountNoteRowIcon{
+    color: #4990E2;
+    text-align: center;
+}
+
+.accountNoteSummary{
+    text-align: left;
+}
+
+.accountDropDownArrow{
+    text-align: center;
+}
+
+.accountOverviewDetailsRow{
+    align-items: center;
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 32% 46% 20%;
+}
+
+.accountOverviewDetailLink{
+    color: #4990E2;
+    text-align: right;
+}
+
+.addNoteBtn{
+    height: 44px;
+    width: 226px;
+}
